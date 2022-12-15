@@ -41,7 +41,7 @@ button {
 }
 
 p.error {
-    border: dotted green 2px;
+    border: dotted red 2px;
     padding: 1em;
 }
 
