@@ -1,12 +1,5 @@
 [
     {
-        "number": 3,
-        "name": "Jigsaw puzzle",
-        "quantity": 10,
-        "rating": "*****",
-        "genre": "brain-twister"
-    },
-    {
         "number": 1,
         "name": "Star Adventure",
         "quantity": 1,
@@ -14,11 +7,18 @@
         "genre": "FPS"
     },
     {
-        "number": 7,
-        "name": "U.F.O",
-        "quantity": 150,
-        "rating": "**",
-        "genre": "brain-teaser"
+        "number": 2,
+        "name": "Amnesia 2030",
+        "quantity": 25,
+        "rating": "***",
+        "genre": "board game"
+    },
+    {
+        "number": 3,
+        "name": "Raft 2018",
+        "quantity": 25,
+        "rating": "*****",
+        "genre": "Survival"
     },
     {
         "number": 4,
@@ -26,13 +26,6 @@
         "quantity": 100,
         "rating": "*",
         "genre": "adventure"
-    },
-    {
-        "number": 2,
-        "name": "Amnesia 2030",
-        "quantity": 25,
-        "rating": "***",
-        "genre": "board game"
     },
     {
         "number": 5,
@@ -49,11 +42,17 @@
         "genre": "strategy"
     },
     {
-        "number": 12,
-        "name": "World of Warcraft",
-        "quantity": 12,
+        "number": 7,
+        "name": "U.F.O",
+        "quantity": 150,
+        "rating": "**",
+        "genre": "brain-teaser"
+    },
+    {
+        "number": 8,
+        "name": "Gold Rush",
+        "quantity": 20,
         "rating": "*****",
-        "genre": "MMORP"
+        "genre": "Simulator"
     }
-    
 ]

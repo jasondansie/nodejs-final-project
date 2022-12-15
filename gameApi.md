@@ -53,16 +53,16 @@ Each id is unique!
 -   getAllFromStorage()
     -   returns an array of games / []
 
--   getFromStorage(id)
+-   getFromStorageWithNumber(number)
     -   returns an game object / null
 
 -   addToStorage(newGame)
     -   returns true / false
 
--   updateStorage(updatedGame)
+-   updateEntry(updatedGame)
     -   returns true / false
 
--   removeFromStorage(id)
+-   deleteEntry(number)
     -   returns true / false
 
 #### statusCodes.js
