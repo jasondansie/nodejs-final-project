@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <title><%= title %> </title>
+    
+</head>
+<body>
+    <main>
+        <h1><%= header1 %> </h1>
+        <form action="<%= action %> " method="POST">
+            <div>
+                <p>
+                    <label for="number">Game number</label>
+                    <input type="text" id="number" name="number" size="5"
+                    value="<%= number.value %>" <%= number.readonly %> >
+                </p>
+                <p>
+                    <label for="name">Game name</label>
+                    <input type="text" id="name" name="name" size="35"
+                    value="<%= name.value %>" <%= name.readonly %> >
+                </p>
+                <p>
+                    <label for="quantity">Game quantity</label>
+                    <input type="text" id="quantity" name="quantity" size="5"
+                    value="<%= quantity.value %>" <%= name.readonly %> >
+                </p>
+                <p>
+                    <label for="rating">Game rating</label>
+                    <input type="text" id="rating" name="rating" size="15"
+                    value="<%= rating.value %>" <%= rating.readonly %> >
+                </p>
+                <p>
+                    <label for="genre">Game genre</label>
+                    <input type="text" id="genre" name="genre" size="15"
+                    value="<%= genre.value %>" <%= genre.readonly %> >
+                </p>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+        <a href="/"><button>Home</button></a>
+    </main>
+</body>
+</html>

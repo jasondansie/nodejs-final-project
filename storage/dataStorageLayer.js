@@ -16,7 +16,6 @@ module.exports = class Datastorage{
     }
 
     getOne(number){
-        console.log("getting one");
         return new Promise(async (resolve, reject) => {
             if (!number) {
                 reject(MESSAGES.NOT_FOUND('---empty---'));
