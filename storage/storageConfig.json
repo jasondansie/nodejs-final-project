@@ -1,3 +1,4 @@
 {
-    "storageFile": "Dansie_Jason_games.json"
+    "storageFile": "Dansie_Jason_games.json",
+    "adapterfile": "gameAdapter.js"
 }
