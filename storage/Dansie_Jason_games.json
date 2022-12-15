@@ -54,5 +54,19 @@
         "quantity": 20,
         "rating": "*****",
         "genre": "Simulator"
+    },
+    {
+        "number": 14,
+        "name": "Ranch Simulator",
+        "quantity": 10,
+        "rMMORPating": "******",
+        "genre": "Simulator"
+    },
+    {
+        "number": 13,
+        "name": "Starsand",
+        "quantity": 10,
+        "rMMORPating": "*****",
+        "genre": "Survival"
     }
 ]

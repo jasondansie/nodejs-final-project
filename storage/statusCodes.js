@@ -29,31 +29,31 @@ const MESSAGES={
         type:'info'
     }),
     NOT_INSERTED: () => ({
-        message:`Game ${number} was not inserted`,
+        message:`Game was not inserted`,
         code:CODES.NOT_INSERTED,
         type:'error'
     }),
-    ALREADY_IN_USE: id => ({
+    ALREADY_IN_USE: number => ({
         message:`Game ${number} is alreay in use`,
         code:CODES.ALREADY_IN_USE,
         type:'error'
     }),
-    UPDATE_OK: id => ({
+    UPDATE_OK: number => ({
         message:`Game ${number} was updated`,
         code:CODES.UPDATE_OK,
         type:'info'
     }),
     NOT_UPDATED: () => ({
-        message:`Game ${number} was not updated`,
+        message:`Game was not updated`,
         code:CODES.NOT_UPDATED,
         type:'error'
     }),
-    REMOVE_OK: id => ({
+    REMOVE_OK: number => ({
         message:`Game ${number} was removed`,
         code:CODES.REMOVE_OK,
         type:'info'
     }),
-    NOT_REMOVED: id => ({
+    NOT_REMOVED: number => ({
         message:`No game with ${number} was found. Nothing removed`,
         code:CODES.NOT_REMOVED,
         type:'error'
